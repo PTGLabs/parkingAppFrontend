@@ -1,0 +1,40 @@
+.create-booking {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    
+    .booking-table {
+      border-collapse: collapse;
+      margin-top: 2rem;
+      width: 100%;
+    }
+    
+    .booking-table th,
+    .booking-table td {
+      border: 1px solid #ddd;
+      padding: 0.5rem;
+    }
+    
+    .booking-table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      text-align: left;
+    }
+    
+    .booking-table td:first-child {
+      font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .create-booking {
+        padding: 1rem;
+      }
+    
+      .booking-table th,
+      .booking-table td {
+        font-size: 0.9rem;
+      }
+    }
+    
